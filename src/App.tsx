@@ -10,7 +10,7 @@ function App() {
       <div>
         <label htmlFor="checkbox">
         <input id="checkbox" type="checkbox" checked={useTransitions} onChange={() => toggleUseTransitions(!useTransitions)} />
-          {useTransitions ? 'Disable' : 'Enable'} Transitions
+          Transitions Enabled
         </label>
       </div>
       <h1>Transitions</h1>
